@@ -23,7 +23,10 @@ export const Nav = styled.nav`
 `;
 
 export const Image = styled.img`
-  width: 400px;
+  width: 350px;
+  @media (max-width: ${({ theme }) => theme.responsive}) {
+    margin: 40px;
+  }
 `;
 
 export default StyledHeader;
