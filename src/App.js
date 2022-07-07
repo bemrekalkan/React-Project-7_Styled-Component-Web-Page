@@ -7,6 +7,7 @@ const theme = {
     body: "#fff",
     footer: "#8a1c4a",
   },
+  responsive: "768px",
 };
 
 const App = () => {
